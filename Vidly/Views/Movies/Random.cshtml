@@ -18,7 +18,7 @@
 <ul>
     @foreach (var customer in Model.Customer)
     {
-        <li><a href="@Html.ActionLink("Customers", "Customer")">@customer.Name</a></li>
+        <li>@customer.Name</li>
     }
 </ul>
 

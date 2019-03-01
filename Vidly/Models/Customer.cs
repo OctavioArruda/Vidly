@@ -9,5 +9,8 @@ namespace Vidly.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public bool isSubscribedToNewsLetter { get; set; }
+        public MembershipType MembershipType { get; set; } // Navigation property - relation between MembershipType and Customer
+        public byte MembershipTypeId { get; set; } // Foreign key - Entity recognizes this 
     }
 }
