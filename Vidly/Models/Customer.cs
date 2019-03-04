@@ -15,5 +15,6 @@ namespace Vidly.Models
         public bool isSubscribedToNewsLetter { get; set; }
         public MembershipType MembershipType { get; set; } // Navigation property - relation between MembershipType and Customer
         public byte MembershipTypeId { get; set; } // Foreign key - Entity recognizes this 
+        public DateTime? Birthdate { get; set; }
     }
 }

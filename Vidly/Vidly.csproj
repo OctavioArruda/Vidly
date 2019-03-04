@@ -231,9 +231,22 @@
     <Compile Include="Migrations\201903012029388_AddNameToMembershipType.Designer.cs">
       <DependentUpon>201903012029388_AddNameToMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903041248065_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201903041248065_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201903041248065_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903041251050_AddDetailsToMovie.cs" />
+    <Compile Include="Migrations\201903041251050_AddDetailsToMovie.Designer.cs">
+      <DependentUpon>201903041251050_AddDetailsToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903041252504_AddGenreToMovie.cs" />
+    <Compile Include="Migrations\201903041252504_AddGenreToMovie.Designer.cs">
+      <DependentUpon>201903041252504_AddGenreToMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -340,6 +353,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903012029388_AddNameToMembershipType.resx">
       <DependentUpon>201903012029388_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903041248065_AddBirthdateToCustomer.resx">
+      <DependentUpon>201903041248065_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903041251050_AddDetailsToMovie.resx">
+      <DependentUpon>201903041251050_AddDetailsToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903041252504_AddGenreToMovie.resx">
+      <DependentUpon>201903041252504_AddGenreToMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
