@@ -24,17 +24,19 @@ else
 {
     <table class="table table-bordered table-hover">
         <thead>
-        <tr>
-            <th>Customer</th>
-            <th>Discount Rate</th>
-        </tr>
+            <tr>
+                <th>Customer</th>
+                <th>Birthday</th>
+                <th>Membership Duration</th>
+            </tr>
         </thead>
         <tbody>
         @foreach (var customer in Model)
         {
             <tr>
                 <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
-                <td>@customer.MembershipType.DiscountRate%</td>
+                <td>@customer.Birthdate</td>
+                <td>@customer.MembershipType.DurationInMonths</td>
             </tr>
         }
         </tbody>
