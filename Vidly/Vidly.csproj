@@ -238,6 +238,10 @@
     <Compile Include="Migrations\201903041252504_AddGenreToMovie.Designer.cs">
       <DependentUpon>201903041252504_AddGenreToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903101152177_Updatethedb.cs" />
+    <Compile Include="Migrations\201903101152177_Updatethedb.Designer.cs">
+      <DependentUpon>201903101152177_Updatethedb.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -360,6 +364,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903041252504_AddGenreToMovie.resx">
       <DependentUpon>201903041252504_AddGenreToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903101152177_Updatethedb.resx">
+      <DependentUpon>201903101152177_Updatethedb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
